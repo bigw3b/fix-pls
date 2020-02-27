@@ -1,4 +1,4 @@
-### DOKUMENTACIA
+### DOKUMENTÁCIA
 
 # 1. Fáza
 
@@ -15,6 +15,7 @@
 ## frontend, stylisti
 + Rozvrhnúť overall štýl webu, začať na ňom pracovať
 + Návrh formuláru na pridanie inzerátu:
+    - (povinné pole bude to, za ktorým je / ) 
     - Názov projektu/
     - Popis
     - Detailný popis/
