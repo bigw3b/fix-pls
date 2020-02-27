@@ -1,8 +1,8 @@
-# DOKUMENTACIA
+### DOKUMENTACIA
 
-## 1. Fáza
+# 1. Fáza
 
-# backend
+## backend
 + Vytvoriť spojenie s databázou
 + Vytvoriť schému tabuľky v ktorej budú requesty 'requests'
     - Obsahovať musí basic text, užívateľa (zatiaľ anonym), atď
@@ -12,7 +12,7 @@
 
 + Začať pracovať na sfunkčnení formuláru.
 
-# frontend, stylisti
+## frontend, stylisti
 + Rozvrhnúť overall štýl webu, začať na ňom pracovať
 + Návrh formuláru na pridanie inzerátu:
     - Názov projektu/
