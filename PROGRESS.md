@@ -10,7 +10,6 @@
     - Popis
     - Detailný popis/
     - Verzia objavenia
-    - Návrh na opravenie-vylepšenie
     - Fotografie
         - Možnosť pridať takpovediac "nekonečno" fotografií, toto bude obmedzené backendom na určitý počet.
         - Prvá fotografia umiestnená do pola bude nastavená ako hlavná, tzn. prezentačná.
