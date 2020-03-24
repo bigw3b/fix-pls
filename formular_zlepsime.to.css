@@ -1,0 +1,35 @@
+.navbar{
+    height:150px;
+    background-color: grey;
+    margin-top: -9px;
+}
+.zlepsime_to{
+    margin-top: -60px;
+    color: black;
+}
+.improve_icon_nav{
+    height: 50px;
+    width: 50px;
+    margin-top: -60px;
+}
+.link_bar{
+    margin-top: -80px;
+    margin-bottom: 50px;
+}
+.nav-link{
+    color: black;
+    font-size: 26px;
+}
+.input{
+    height: 70px;
+    width: 800px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.button_submit{
+    margin-top: 20px;
+    width: 400px;
+    height: 100px;
+    font-size: 40px;
+    background-color: gray;
+}
