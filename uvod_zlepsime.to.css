@@ -1,7 +1,9 @@
 .navbar{
     height:150px;
-    background-color: grey;
+    background-color: #FFA835;
     margin-top: -9px;
+    border-bottom-width: 10px;
+    border-color: black;
 }
 .zlepsime_to{
     margin-top: -60px;
@@ -16,8 +18,14 @@
     margin-top: -80px;
     margin-bottom: 50px;
 }
-.nav-link{
+.nav_link{
     color: black;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav_link:hover{
+    color: #6B430C;
     font-size: 26px;
 }
 .o_nas{
@@ -31,7 +39,7 @@
 .newest_reqest{
     height: 160px;
     width: 500px;
-    background-color: grey;
+    background-color: #49789D;
     color: black;
     font-size: 35px;
     text-align: center;
@@ -50,7 +58,7 @@
 }
 .footer{
     height: 222px;
-    background-color: grey;
+    background-color: #FFA835;
 }
 .improve_icon_footer{
     height: 30px;
@@ -67,13 +75,20 @@
 .footer_link{
     color: black;
     text-align: center;
+    text-decoration: none;
     font-weight: bold;
     font-size: 20px;
+}
+.footer_link:hover{
+    color: #6B430C;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px
 }
 .back_to_top{
     width: 200px;
     height: 60px;
-    background-color: grey;
+    background-color: #49789D;
     color: black;
     border-radius: 20px;
     border-color: black ;

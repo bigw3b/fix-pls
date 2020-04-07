@@ -10,6 +10,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
 
 </head>
 <body>
@@ -23,8 +24,8 @@
     </nav>
         <div class="row link_bar">
             <div class="col"></div>
-            <a href="" class="col nav-link"><u>Newest request</u></a>
-            <a href="" class="col nav-link"><u>Add request</u></a>
+            <a href="main_zlepsime.to.html" class="col nav-link"><u>Newest request</u></a>
+            <a href="formular_zlepsime.to.html" class="col nav-link"><u>Add request</u></a>
         </div> 
     </div>
 
@@ -57,13 +58,13 @@
             
             <div class="col" >
                 <div class="row " style="margin-top: 20px;">
-                    <a href="" class="footer_link">O nás</a>
+                    <a href="uvod_zlepsime.to.html" class="footer_link">O nás</a>
                 </div>
                 <div class="row" style="margin-top: 20px;">
-                    <a href="" class="footer_link" >Newest request</a>
+                    <a href="main_zlepsime.to.html" class="footer_link" >Newest request</a>
                 </div>
                 <div class="row" style="margin-top: 20px;">
-                    <a href="" class="footer_link">Add request</a>
+                    <a href="formular_zlepsime.to.html" class="footer_link">Add request</a>
                 </div>            
             </div>
             <div class="col"></div>
@@ -71,7 +72,7 @@
                 <div class="line"></div>
             </div>
             <div class="col" style="margin-top: 20px;">
-                    <button>Back to top</button>
+                    <button class="back_to_top" onclick="scrollToTop()">Back to top </button>
             </div>
             
         </footer>
@@ -79,6 +80,11 @@
 
 </body>
 
+<script> 
+    function scrollToTop() { 
+        $(window).scrollTop(0); 
+    } 
+</script> 
 
 
 

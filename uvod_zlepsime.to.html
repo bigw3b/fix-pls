@@ -10,6 +10,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
 
 </head>
 <body>
@@ -23,8 +24,12 @@
     </nav>
         <div class="row link_bar">
             <div class="col"></div>
-            <a href="" class="col nav-link"><u>Newest request</u></a>
-            <a href="" class="col nav-link"><u>Add request</u></a>
+            <div class="col">
+                <a href="main_zlepsime.to.html" class="nav_link">Newest request</a>
+            </div>
+            <div class="col">
+            <a href="formular_zlepsime.to.html" class="nav_link">Add request</a>
+            </div>
         </div> 
     </div>
         
@@ -34,7 +39,7 @@
         <div class="col">
             <h2 class="o_nas">O nás</h2>    
             <div class="row">
-                <p class="uvod_text" > Naše združenie pripravuje rôzne podujatia pre deti a rodiny. Sú to rôzne športové, environmentálne, zábavné a edukačné podujatia. Tento rok budeme pripavovať dve ekoakcie, dve športové podujatia a prednášku a výstavu na ZŠ. Každé podujatie má rôzny sprievodný program (tvorivé dielničky, škola prvej pomoci, súťaže, hlavolamy, ...). Koho hľadáme? Človeka, ktorý si má pozitívny vzťah k deťom a chce byť v diani pri organizovaní podujatí pre deti a rodiny. Daj nám o sebe vedieť prostredníctvom e-mailu predseda@robimetopredeti.sk. Som mama s nadorom na mozgu a mám malého syna Samka, ktorý trpí detskou mozgovou obrnou a spastitídou..</p>
+                <p class="uvod_text" > Sme aplikácia, ktorá sa zameriava na komunitnú pomoc. Pomocou našej aplikácie sa dajú riešiť problémy alebo sa dajú opraviť. Nemusia sa riešiť len materiálne problémy. Ak si všimne problém alebo niečo čo sa vám nepáči, tak to potom môžete dať na náš web. Na náš web to uverejnite týmto spôsobom. Musíte si vytvoriť new regest a ten vytvoríte pomocou formulára, ktorý musíte vyplniť a odoslať. Na riešenie sa ľudia zbierajú aj malými sumami, ale príspevok nie je nijako obmedzený. Zbieranie je riešené tým spôsobom že to odovzdáš buď autorovi príspevku alebo pokladníkovi, ktorého určí autor príspevku. Niekomu možno ta suma stačí na riešenie problému. Môže sa prihlásiť autorovi príspevku. Autor príspevku alebo pokladník potom musia peniaze vyzbierať. Keď problém bude vyriešený, ten čo ho vyriešil musí dať dôkaz, že to tak je a peniaze mu budú vyplatené.</p>
             </div>
         </div>
         <div class="col"></div>
@@ -44,14 +49,14 @@
     <div class="row" style="margin-top: 20px;">
         <div class="col"></div>
         
-        <button class="newest_reqest">Newest request</button>
+        <button class="newest_reqest" onclick="location.href = 'main_zlepsime.to.html'">Newest request</button>
         
         <div class="col"></div>
     </div>
     <div class="row" style="margin-top: 20px; margin-bottom: 20px;">
         <div class="col"></div>
         
-        <button class="add_request">Add request</button>
+        <button class="add_request" onclick="location.href = 'formular_zlepsime.to.html'">Add request</button>
         
         <div class="col"></div>
     </div>
@@ -71,13 +76,13 @@
         
         <div class="col" >
             <div class="row " style="margin-top: 20px;">
-                <a href="" class="footer_link">O nás</a>
+                <a href="uvod_zlepsime.to.html" class="footer_link">O nás</a>
             </div>
             <div class="row" style="margin-top: 20px;">
-                <a href="" class="footer_link" >Newest request</a>
+                <a href="main_zlepsime.to.html" class="footer_link" >Newest request</a>
             </div>
             <div class="row" style="margin-top: 20px;">
-                <a href="" class="footer_link">Add request</a>
+                <a href="formular_zlepsime.to.html" class="footer_link">Add request</a>
             </div>            
         </div>
         <div class="col"></div>
@@ -85,7 +90,7 @@
             <div class="line"></div>
         </div>
         <div class="col" style="margin-top: 20px;">
-                <button class="back_to_top">Back to top</button>
+                <button class="back_to_top" onclick="scrollToTop()">Back to top</button>
         </div>
 
     </footer>
@@ -94,6 +99,23 @@
 
 
 </body>
+
+
+<script> 
+
+    function scrollToTop() { 
+        $(window).scrollTop(0); 
+    } 
+
+    function newest_reqestfunction(){
+        open('main_zlepsime.to.html')
+    }
+
+    function add_reqestfunction(){
+        open('formular_zlepsime.to.html')
+    }
+</script> 
+
 
 
 </html>
