@@ -1,6 +1,6 @@
 .navbar{
     height:150px;
-    background-color: grey;
+    background-color: #FFA835;
     margin-top: -9px;
 }
 .zlepsime_to{
@@ -26,7 +26,7 @@
 }
 .footer{
     height: 222px;
-    background-color: grey;
+    background-color: #FFA835;
 }
 .improve_icon_footer{
     height: 30px;
@@ -55,7 +55,7 @@
 .back_to_top{
     width: 200px;
     height: 60px;
-    background-color: grey;
+    background-color: #49789D;
     color: black;
     border-radius: 20px;
     border-color: black ;
