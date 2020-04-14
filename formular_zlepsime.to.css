@@ -22,7 +22,20 @@
 }
 .input{
     height: 70px;
-    width: 800px;
+    width: 1000px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.skrateny_popis{
+    height: 200px;
+    width: 1000px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cely_popis{
+    height: 300px;
+    width: 1000px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
